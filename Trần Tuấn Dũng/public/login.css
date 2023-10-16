@@ -1,0 +1,49 @@
+*{
+    margin:0;
+    padding: 0;
+}
+.signupp {
+    display: flex;
+    flex-direction: column;
+    margin-right: 127px;
+    margin-top: 158px;
+    
+    
+}
+
+#subm {
+    padding: 12px 15px;
+    background-color:#007bff ;
+    border: none;
+    color: white;
+    border-radius: 5px;
+    margin-top :12px;
+
+    
+}
+.box {
+    padding:10px 150px;
+    
+}
+.container {
+    justify-content: space-between;
+    height: 100vh;
+    display: flex;
+
+}
+.pic {
+    background-size: cover;
+    background-repeat: no-repeat;
+    height:100%;
+    width: 50%;
+    background-image:url("https://preview.redd.it/happy-banana-cat-v0-06lnbp9rpnva1.jpg?width=640&crop=smart&auto=webp&s=4ab1da180c1a1a4599229446d1e784ff1f63297b") ;
+}
+.signupp > div:not(:last-child) {
+    margin-top: 40px;
+}
+.oa {
+    font-size: 30px;
+}
+body {
+    height: 100vh;
+}

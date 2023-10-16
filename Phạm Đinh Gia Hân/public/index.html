@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Halloween Theme</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+
+</head>
+
+<body>
+    <div id="home">
+        <!-- user's avt -->
+        <div id="header">
+            <a href="./help.html" target="_blank">&ensp;&ensp;Need help?</a>
+            <div id="avt" onmouseover="show()" onmouseout="hide()"></div>
+            <div id="account" class="coolgray" >
+                <p id="username">username | age</p>
+            </div>
+        </div>
+        <!-- center texts -->
+        <div id="welcome">
+            <div class="circle orange"></div>
+            <div class="circle yellow" id="reduce"></div>
+            <h1>Welcome here!</h1>
+            <h2>A project for your Halloween Day.</h2>
+            <img src="./assets/bat.png" alt="">
+        </div>
+    </div>
+
+    <!-- knowledge -->
+    <div id="legend">
+        <div class="block">
+            <div id="text">
+                <br>
+                <H1>All Hallows' Evening</H1>
+                <p>&ensp;&ensp;Halloween's origins can be traced back to the ancient Celtic festival known as
+                    Samhain, which
+                    was held on
+                    November 1 in contemporary calendars. It was believed that on that day, the souls of the dead
+                    returned
+                    to their homes, so people dressed in costumes and lit bonfires to ward off spirits.</p>
+
+                <p>&ensp;&ensp;In addition to causing trouble and damaging crops, Celts thought that the presence of
+                    the
+                    otherworldly spirits made it easier for the Druids, or Celtic priests, to make predictions about
+                    the
+                    future. For a people entirely dependent on the volatile natural world, these prophecies were an
+                    important source of comfort during the long, dark winter.</p>
+
+                <p>&ensp;&ensp;To commemorate the event, Druids built huge sacred bonfires, where the people
+                    gathered to
+                    burn crops and animals as sacrifices to the Celtic deities. During the celebration, the Celts
+                    wore
+                    costumes, typically consisting of animal heads and skins, and attempted to tell each other’s
+                    fortunes.
+                </p>
+
+                <p>&ensp;&ensp;When the celebration was over, they re-lit their hearth fires, which they had
+                    extinguished
+                    earlier that evening, from the sacred bonfire to help protect them during the coming winter.</p>
+
+                <p>&ensp;&ensp;The first was Feralia, a day in late October when the Romans traditionally
+                    commemorated the
+                    passing of the dead. The second was a day to honor Pomona, the Roman goddess of fruit and trees.
+                    The
+                    symbol of Pomona is the apple, and the incorporation of this celebration into Samhain probably
+                    explains
+                    the tradition of bobbing for apples that is practiced today on Halloween.</p>
+                <br>
+            </div>
+
+            <img id="house" src="./assets/house.png" alt="">
+        </div>
+    </div>
+    <!-- heading -->
+    <div id="nav" class="darkgrey">
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="./events.html" target="_blank">Events</a></li>
+            <li><a href="#legend">Legend</a></li>
+            <li><a href="./join.html" target="_blank">Join</a></li>
+            <li id="search">
+                <div>
+                    <input type="search" id="searchbar">&ensp;
+                    <span onmouseover="moussin()" onmouseout="moussout()" onclick="keepInvisible()"
+                    class="material-symbols-outlined">search</span>
+                </div>
+            </li>
+        </ul>
+    </div>
+<script src="./index.js"></script>
+</body>
+
+</html>

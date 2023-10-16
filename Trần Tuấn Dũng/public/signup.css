@@ -1,0 +1,49 @@
+*{
+    margin:0;
+    padding: 0;
+}
+.signupp {
+    display: flex;
+    flex-direction: column;
+    margin-right: 127px;
+    margin-top: 158px;
+    
+    
+}
+
+#subm {
+    padding: 12px 15px;
+    background-color:#007bff ;
+    border: none;
+    color: white;
+    border-radius: 5px;
+    margin-top :12px;
+
+    
+}
+.box {
+    padding:10px 150px;
+    
+}
+.container {
+    justify-content: space-between;
+    height: 100vh;
+    display: flex;
+
+}
+.pic {
+    background-size: cover;
+    background-repeat: no-repeat;
+    height:100%;
+    width: 50%;
+    background-image:url("https://bazaarvietnam.vn/wp-content/uploads/2021/07/phim-khoa-hoc-vien-tuong-hay-nhat-moi-thoi-dai-10-e1626966924347.jpg") ;
+}
+.signupp > div:not(:last-child) {
+    margin-top: 40px;
+}
+.oa {
+    font-size: 30px;
+}
+body {
+    height: 100vh;
+}
